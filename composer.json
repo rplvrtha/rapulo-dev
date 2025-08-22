@@ -4,7 +4,9 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Rplvrtha\\RapuloApp\\": "app/"
+            "app\\": "app/",
+            "common\\": "common/",
+            "public\\": "public/"
         }
     },
     "authors": [
@@ -13,5 +15,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php":">=7.4"
+    }
 }
