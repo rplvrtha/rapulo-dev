@@ -1,0 +1,17 @@
+{
+    "name": "rplvrtha/rapulo-app",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rplvrtha\\RapuloApp\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rplvrtha"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
